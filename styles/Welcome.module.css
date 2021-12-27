@@ -1,0 +1,41 @@
+.welcome{
+    height: 100vh;
+    background-image: url("../public/img/background.png");
+    background-size: cover;
+    background-position: center center;
+}
+.welcome__container{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcome__title{
+    font-family: Amatic SC;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 121px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+    text-transform: uppercase;
+}
+.welcome__subtitle{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+}
+.btn_scroll{
+    background-color: transparent;
+    border-color: transparent;
+    width: 100%;
+    margin-bottom: 35px;
+    position: absolute;
+    bottom: -10px;
+    animation: move 2s linear infinite;
+}
