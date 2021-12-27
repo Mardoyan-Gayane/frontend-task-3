@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <section>
           <Head>
               <meta name="viewport" content="width=device-width, user-scalable=yes"/>
-              <title>Hello fucking world</title>
+              <title>Хакасия</title>
           </Head>
           <Header />
           <Welcome />
